@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid blue;*/
+}
+
+
+@font-face {
+  font-family: Bebas;
+  scr: url(../font/BebasNeueRegular.ttf);
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url(../font/helvetica.ttf);
+}
+
+@font-face {
+  font-family: Alternate;
+  src:url(../font/Alternate.ttf);
+}
+
+@font-face {
+  font-family: PTS;
+  src: url(../font/PTS55F.ttf);
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+
+}
+
+.container {
+  position: relative;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.webfolio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my_web {
+  margin-left: 20px;
+
+}
+
+.webfolio h1 {
+  margin-top: 39px;
+  margin-bottom: 0;
+  font-family: Alternate, sans-serif;
+  color: #404040;
+  font-size: 36px;
+  font-weight: 500;
+  }
+
+.webfolio p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #404040;
+  font-size: 14px;
+}
+
+.menu {
+  margin-top: 50px;
+  margin-right: 35px;
+}
+
+.webfolio a {
+  font-family: Helvetica;
+  text-decoration: none;
+  color: #404040;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-top: 53px;
+  padding-bottom: 9px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.menu a:hover {
+  background-color: #d45e5e;
+  color: #fff;
+}
+
+.sec_2 {
+  text-align: center;
+}
+
+.quotes {
+  display: inline-block;
+  transform: rotate(180deg);
+  font-family: Arial Black;
+  font-size: 100px;
+  letter-spacing: -5px;
+  margin-top: 72px;
+  opacity: 0.22;
+  margin-bottom: 0;
+}
+
+.text {
+  position: relative;
+  margin: 0;
+  margin-top: -55px;
+  font-family: Cambria;
+  font-size: 23px;
+  font-style: italic;
+  color: #404040;
+  padding-bottom: 30px;
+  background-color: #fff;
+  border-top: 1px;
+  border-color: #ddd4d4;
+  box-shadow: 0px 5px 15px -7px grey;
+}
+
+.pen {
+  margin-top: -45px;
+  margin-bottom: 46px;
+}
+
+.sec_3 h2 {
+  font-family: Cambria;
+  font-style: italic;
+  font-size: 23px;
+  font-weight: 100;
+  color: #404040;
+  margin-left: 60px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+
+.portfolio {
+  width: 935px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.foto {
+  margin-top: 28px;
+  width: 205px;
+  height: 205px;
+}
+
+.sec_4 {
+  background-color: #d45e5e;
+}
+
+.bio {
+  display: flex;
+}
+
+.foto_1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 590px;
+}
+
+.foto_2 {
+  margin-left: 50px;
+  margin-top: -50px;
+  padding: 6px;
+  background-color: #fff;
+}
+
+.lorem {
+  margin-left: 30px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 25px;
+  font-family: Cambria;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.lorem_2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 48px;
+  margin-left: -138px;
+}
+
+.loc {
+  width: 12px;
+  height: 15px;
+}
+
+.text_4 {
+  font-family: PTS;
+  font-size: 12.5px;
+  color: #fff;
+  margin-left: 5px;
+}
+
+.social {
+  margin-left: 140px;
+  margin-top: 30px;
+}
+
+.twitter {
+  margin-right: 20px;
+}
+
+.text_2 {
+  width: 580px;
+  margin-top: 23px;
+  margin-left: 50px;
+}
+
+.text_2 p {
+  font-family: PTS;
+  font-size: 12.5px;
+  color: #fff;
+  line-height: 1.75;
+}
+
+.ski {
+  width: 300px;
+  margin-top: 25px;
+  margin-left: 30px;
+  padding-bottom: 80px;
+}
+
+.ski h4 {
+  font-family: Cambria;
+  font-size: 24.5px;
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+.ski_container {
+  width: 220px;
+  height: 15px;
+  background-color: #e27878;
+  margin-top: 12px;
+  margin-left: 50px;
+}
+
+.ps {
+  width: 60%;
+  height: 100%;
+  background-color: #282828;
+}
+
+.ai {
+  width: 80%;
+  height: 100%;
+  background-color: #282828;
+}
+
+
+.bs {
+  width: 30%;
+  height: 100%;
+  background-color: #282828;
+}
+
+.cs {
+  width: 90%;
+  height: 100%;
+  background-color: #282828;
+}
+
+.ski p {
+  margin-top: -20px;
+  margin-left: -30px;
+  font-family: PTS;
+  color:#fff;
+  font-size: 17px;
+}
+
+footer {
+  background-color: #282828;
+  height: 45px;
+}
+
+footer p {
+  color: #949494;
+  font-family: PTS;
+  font-size: 12.5px;
+  float: right;
+  margin-right: 20px;
+}
